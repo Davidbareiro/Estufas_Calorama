@@ -6,6 +6,29 @@ text-decoration: none;
 }
 
 
-p {
-    color:red;
+ 
+header  {
+    display: flex;
+    justify-content:  space-around;
+    height: 70px;
+    background-color: rgb(214, 209, 203);
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+nav a {
+    padding: 20px;
+    background-color: beige;
+}
+
+.logo h2{
+    padding-left: 25px;
 }
