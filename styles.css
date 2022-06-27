@@ -11,8 +11,9 @@ header  {
     display: flex;
     justify-content:  space-around;
     height: 70px;
-    background-color: rgb(214, 209, 203);
+    background-color: rgb(20, 20, 19);
     align-items: center;
+    color: white;
 }
 
 .logo{
@@ -26,19 +27,27 @@ header  {
 
 nav a {
     padding: 20px;
+<<<<<<< HEAD
     /* kbackground-color: beige; */
+=======
+    color: white;
+>>>>>>> 242f0f29d40e3e19ce7b7aa18a1b375420c60810
 }
 
 .logo h2{
     padding-left: 25px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 242f0f29d40e3e19ce7b7aa18a1b375420c60810
 nav a:hover {
     font-weight: 600;
     color: rgb(228, 135, 22);
 }
+<<<<<<< HEAD
 
 .seccion1 {
     /* display: flex;
@@ -68,3 +77,5 @@ nav a:hover {
     font-size: 40px;
     font-family: PT Sans;
 }
+=======
+>>>>>>> 242f0f29d40e3e19ce7b7aa18a1b375420c60810
