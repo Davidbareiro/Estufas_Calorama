@@ -1,0 +1,19 @@
+
+
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+h1{
+ margin: 50px;   
+ text-align: center ;
+}
+
+h4 {
+    font-size: 15px;
+    width: 33%;
+}

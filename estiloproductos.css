@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+     
+    header  {
+        display: flex;
+        justify-content:  space-around;
+        height: 70px;
+        background-color: rgb(20, 20, 19);
+        align-items: center;
+        color: white;
+    }
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img{
+        height: 50px;
+    }
+    
+    nav a {
+        padding: 20px;
+ 
+        /* kbackground-color: beige; */
+  
+        color: white;
+ 
+    }
+
+
+/* Cuerpo */
+
+.card-image{
+    width: 90%;
+
+}
+
+main{
+
+    margin-bottom: 50px;
+}
+.seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/* .card{
+    height: 10%;
+    
+} */
+.card__header{
+    width: 25%;
+    height: 25%;
+}
+
+/* Fin de Cuerpo */
+
+
+    /* Footer */
+
+    
+.container{
+
+    max-width: 1170px;
+  
+    margin: auto;
+
+}    
+footer {
+    background-color: #24262b;
+    padding: 80px 0;
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col  h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 50px;
+    background-color: #e91e63;
+    box-sizing: border-box;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 300;
+        color : #cacbcc;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 17px  ;
+        transition: all 0.3s ease;
+         
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+
+}
+
+.footer-col .social-links a{
+
+    display: list-item;
+    height: 30px;
+    list-style: none;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10px ;
+
+
+}
