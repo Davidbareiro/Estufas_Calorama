@@ -1,135 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    }
-    
-    
-     
-    header  {
-        display: flex;
-        justify-content:  space-around;
-        height: 70px;
-        background-color: rgb(20, 20, 19);
-        align-items: center;
-        color: white;
-    }
-    
-    .logo{
-        display: flex;
-        align-items: center;
-    }
-    
-    .logo img{
-        height: 50px;
-    }
-    
-    nav a {
-        padding: 20px;
- 
-        /* kbackground-color: beige; */
-  
-        color: white;
- 
-    }
-    
-    .logo h2{
-        padding-left: 25px;
-    }
-    
-  
-    
-    
-   
-    nav a:hover {
-        font-weight: 600;
-        color: rgb(228, 135, 22);
-    }
-  
-    
-    .seccion1 {
-        /* display: flex;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: rgb(20, 20, 19);
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    padding: 20px;
+
+    /* kbackground-color: beige; */
+
+    color: white;
+
+}
+
+.logo h2 {
+    padding-left: 25px;
+}
+
+
+
+
+
+nav a:hover {
+    font-weight: 600;
+    color: rgb(228, 135, 22);
+}
+
+
+.seccion1 {
+    /* display: flex;
         justify-content: center;*/
-        /* align-items: center;  */
-        margin: auto;
-        background-color: white;
-        text-align: center;
-        
-    }
-    .parrafos{
-        /* display:table-column;
+    /* align-items: center;  */
+    margin: auto;
+    background-color: white;
+    text-align: center;
+
+}
+
+.parrafos {
+    /* display:table-column;
         justify-content: initial;
         align-items: center; */
-        text-align: center;
-        margin-top: 100px;
-    }
-    
-    .parrafo{
-        font-size: 20px;
-        font-family: Yellowtail;
-    
-    }
-    .titulo {
-        margin-right: 50px;
-        margin-top: 100px;
-        font-size: 40px;
-        font-family: PT Sans;
-    }
-   
+    text-align: center;
+    margin-top: 100px;
+}
+
+.parrafo {
+    font-size: 20px;
+    font-family: Yellowtail;
+
+}
+
+.titulo {
+    margin-right: 50px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: PT Sans;
+}
+
 .ImagenEmpresarial {
     margin-top: 50px;
 }
 
 
 
-    .imagenDiv{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 35px;
-    }
+.imagenDiv {
 
-    .ie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
 
-        width: 50%;
-        border-radius: 20px;
-        border-bottom: 3px solid #000;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-       
-        
+.ie {
 
-    }
+    width: 50%;
+    border-radius: 20px;
+    border-bottom: 3px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
-.container{
+
+}
+
+/* FOOTER */
+.container {
 
     max-width: 1170px;
-  
     margin: auto;
+    max-height: 150px;
 
-}    
+}
+
 footer {
     background-color: #24262b;
     padding: 80px 0;
     line-height: 1.5;
 }
 
-ul{
+ul {
     list-style: none;
 
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
-    
+
 }
 
 .footer-col h4 {
@@ -141,7 +148,7 @@ ul{
     position: relative;
 }
 
-.footer-col  h4::before{
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
@@ -156,24 +163,24 @@ ul{
     margin-bottom: 10px;
 }
 
-.footer-col ul li a{
-        font-family: 'PT Sans', sans-serif;
-        font-weight: 300;
-        color : #cacbcc;
-        text-decoration: none;
-        text-transform: capitalize;
-        font-size: 17px  ;
-        transition: all 0.3s ease;
-         
+.footer-col ul li a {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    color: #cacbcc;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    transition: all 0.3s ease;
+
 }
 
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
     color: #ffffff;
     padding-left: 10px;
 
 }
 
-.footer-col .social-links a{
+.footer-col .social-links a {
 
     display: list-item;
     height: 30px;
@@ -186,7 +193,172 @@ ul{
     transition: all 0.3s ease;
     line-height: 30px;
     font-size: 20px;
-    margin: 10px ;
+    margin: 10px;
 
 
 }
+
+/* FIN DE FOOTER */
+
+/* FAQ */
+
+
+main {
+    background: #E6EBF3;
+}
+
+.faqcaja {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+
+}
+
+.faqtitulo {
+    margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.faqsubtitulos {
+    font-size: 20px;
+    width: 33%;
+    text-align: left;
+    margin: 5px;
+    color: #e91e63;
+}
+
+.faqtemas {
+    margin: 10px;
+    background: #e6ebf3;
+
+}
+
+
+/* FIN FAQ */
+
+/* CONTACTO */
+
+
+.contacto_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #f8f0f0;
+    /* #fbfbfb;  */
+    padding-left: 30px;
+}
+
+
+.contacto_ingreso {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.contacto_texto_mensaje {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+.contacto_label {
+    display: block;
+    float: center;
+}
+
+
+.contacto_envio {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+.contacto_envio p {
+    color: #fff;
+}
+
+
+.contacto_aviso span {
+    color: #ab4493;
+}
+
+
+.contacto_aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+
+.contacto_titulo {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #ab4493;
+}
+
+
+.contacto_subtitulo {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+/* FIN CONTACTO */
+
+
+
+
+/* PRODUCTOS */
+
+.producto_main {
+    margin-top: 75px;
+}
+
+/* .producto_pic{
+    width: 150px;
+    height: 150px;
+} */
+
+.producto_pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+/* FIN PRODUCTOS */
+

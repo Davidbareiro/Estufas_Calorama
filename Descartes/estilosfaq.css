@@ -1,6 +1,6 @@
 
 
-.caja {
+.faqcaja {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,12 +8,12 @@
 
 }
 
-h1{
+.faqtitulo{
  margin: 50px;   
  text-align: center ;
 }
 
-h4 {
+.faqsubtitulos {
     font-size: 15px;
     width: 33%;
 }
