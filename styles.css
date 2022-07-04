@@ -114,6 +114,7 @@ nav a:hover {
     max-width: 1170px;
     margin: auto;
     max-height: 150px;
+   
 
 }
 
@@ -203,7 +204,7 @@ ul {
 /* FAQ */
 
 
-main {
+.faqmain {
     background: #E6EBF3;
 }
 
@@ -344,21 +345,145 @@ main {
 
 /* PRODUCTOS */
 
-.producto_main {
-    margin-top: 75px;
+.producto_main{
+
+    min-height: 500px;
+     margin-top: 75px;
+
 }
 
-/* .producto_pic{
-    width: 150px;
-    height: 150px;
-} */
+ 
 
-.producto_pic img{
-    width: 150px;
+.productos_seccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.productos_articulo{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 250px;
+    margin: 5px 5px 20px 5px;
+}
+
+.productos_header .producto_pic img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+ 
+}
+
+.fa 
+{
+    visibility: hidden;
+}
+
+.producto_datos_articulo {
+
+    width: 250px;
     height: 150px;
-    border-radius: 50%;
+
+
+ 
 }
 
 
+
+.producto_familia{
+    font-family: Roboto;
+    color: #da3e72;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.producto_modelo{
+    font-family: Roboto;
+    color: #9e8b91;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.producto_texto{
+    text-align: center;
+    font-family: 'PT Sans';
+    color: #1d1a1b;
+    padding: 10px;
+}
+
+.valores{
+    background: #DE7C7C;
+    border-radius:  0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.producto_etiquetas{    
+    margin-right: 10px;
+    position: relative;
+}
+
+.producto_etiquetas:not(:last-child)::after{
+    content: '';
+    width: 2px;
+    height: 100%;
+    background: #b85475;
+    position: absolute;
+    right: 0;
+    top:0;
+   
+}
+
+
+ 
+
+.producto_etiquetas p{
+    padding: 1px;
+     margin-right: 4px;
+}
+
+
+.producto_texto_valores{
+    Color: #ffffff;
+    font-weight:   600;
+}
+
+.producto_titulo{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    color: #b85475;
+}
+
+
+.productos_menu_interno{
+    display: flex;justify-content: space-around;
+    padding: 15px 10px;
+    
+}
+
+.productos_menu_interno a{
+    text-decoration: none;
+    color: #795252;
+    padding: 3px;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: linear .3 ease;
+}
+
+
+.productos_menu_interno a:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+   
+  
+}
 /* FIN PRODUCTOS */
 
