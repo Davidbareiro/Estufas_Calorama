@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 
+/* HEADER */
 
 
 header {
@@ -51,21 +52,18 @@ nav a:hover {
     color: rgb(228, 135, 22);
 }
 
+/* FIN HEADER */
+
+/* main */
 
 .seccion1 {
-    /* display: flex;
-        justify-content: center;*/
-    /* align-items: center;  */
     margin: auto;
     background-color: white;
     text-align: center;
-
 }
 
 .parrafos {
-    /* display:table-column;
-        justify-content: initial;
-        align-items: center; */
+ 
     text-align: center;
     margin-top: 100px;
 }
@@ -108,100 +106,10 @@ nav a:hover {
 
 }
 
-/* FOOTER */
-.container {
-
-    max-width: 1170px;
-    margin: auto;
-    max-height: 150px;
-   
-
-}
-
-footer {
-    background-color: #24262b;
-    padding: 80px 0;
-    line-height: 1.5;
-}
-
-ul {
-    list-style: none;
-
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
-
-}
-
-.footer-col h4 {
-    font-size: 18px;
-    color: white;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
-}
-
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 2px;
-    width: 50px;
-    background-color: #e91e63;
-    box-sizing: border-box;
-}
-
-.footer-col ul li {
-    margin-bottom: 10px;
-}
-
-.footer-col ul li a {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 300;
-    color: #cacbcc;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: 17px;
-    transition: all 0.3s ease;
-
-}
-
-.footer-col ul li a:hover {
-    color: #ffffff;
-    padding-left: 10px;
-
-}
-
-.footer-col .social-links a {
-
-    display: list-item;
-    height: 30px;
-    list-style: none;
-    width: 30px;
-    background-color: rgba(255, 255, 255, 0.2);
-    text-align: center;
-    border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.3s ease;
-    line-height: 30px;
-    font-size: 20px;
-    margin: 10px;
 
 
-}
 
-/* FIN DE FOOTER */
-
-/* FAQ */
+/* FAQ main */
 
 
 .faqmain {
@@ -239,9 +147,12 @@ ul {
 }
 
 
-/* FIN FAQ */
+/* FIN FAQ main*/
 
-/* CONTACTO */
+
+
+
+/* CONTACTO main*/
 
 
 .contacto_form {
@@ -338,12 +249,12 @@ ul {
     color: #0e0e0e;
 }
 
-/* FIN CONTACTO */
+/* FIN CONTACTO main*/
 
 
 
 
-/* PRODUCTOS */
+/* PRODUCTOS main*/
 
 .producto_main{
 
@@ -485,9 +396,10 @@ ul {
    
   
 }
-/* FIN PRODUCTOS */
+/* FIN PRODUCTOS main*/
 
-/* EMPRESA */
+
+/* EMPRESA main*/
 
 .empresa_main {
     min-height: 500px;
@@ -564,4 +476,104 @@ ul {
 .video1 {
     margin: 20px;
 }
-/* FINEMPRESA */
+/* FIN EMPRESA main */
+
+/* Fin main */
+
+
+/* FOOTER */
+.container {
+
+    max-width: 1170px;
+    margin: auto;
+    max-height: 150px;
+   
+
+}
+
+footer {
+    background-color: #24262b;
+    padding: 80px 0;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 50px;
+    background-color: #e91e63;
+    box-sizing: border-box;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    color: #cacbcc;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    transition: all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+
+}
+
+.footer-col .social-links a {
+
+    display: list-item;
+    height: 30px;
+    list-style: none;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10px;
+
+
+}
+
+/* FIN DE FOOTER */
+
+
+
+
