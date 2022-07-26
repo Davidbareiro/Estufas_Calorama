@@ -420,44 +420,47 @@ nav a:hover {
 /* Fin main */
 
 /* FOOTER */
+
+
+
+/* footer {
+  max-height: 400px; 
+} */
+
 .row {
   /* max-width: 1170px; */
   /* margin: auto; */
   /* max-height: 150px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr ;
+  /* grid-template-rows: 1fr 1fr ; */
 
   grid-template-areas: 
-    "col1" "col2" "col3" "col4" ;
-    
-    
-
+    "col1 col2 col3 col4" ;
 }
- .sl{
+
+.sl{
   grid-area: col1;
 }
-
-
 
 .ma{
   grid-area: col2;
 }
-/*
+
 .in{
   grid-area: col3;
 }
 
 .co{
   grid-area: col4;
-} */
+}
 
 
 
 
 footer {
   background-color: #24262b;
-  padding: 80px 0;
+  padding: 20px 0 20px 0;
   line-height: 1.5;
 }
 
@@ -582,5 +585,46 @@ ul {
       display: block;
     }
 
+
+    /*  */
+
+    
+    .row {
+      /* max-width: 1170px; */
+      /* margin: auto; */
+      /* max-height: 150px; */
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 1fr ;
+    
+      grid-template-areas: 
+        "col1 col1 col2 col2"
+        "col3 col3 col4 col4"  ;
+    }
+    
+    /* .footer-col {
+      width: 100%;
+    } */
+
+    .sl{
+      grid-area: col1;
+      margin-bottom: 20px; 
+     
+    }
+    
+    .ma{
+      grid-area: col2;
+      margin-bottom: 20px; 
+      
+    }
+    
+    .in{
+      grid-area: col3;
+    }
+    
+    .co{
+      grid-area: col4;
+    }
+    
 
 }

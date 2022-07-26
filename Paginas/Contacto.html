@@ -10,26 +10,45 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Roboto:ital,wght@0,300;1,100&family=Yellowtail&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&family=Yellowtail&display=swap"  rel="stylesheet" />
+    
+    <link    rel="stylesheet"      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  />
+    <link    rel="stylesheet"      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"   />
+    <link    rel="stylesheet"      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"                                integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+                                   crossorigin="anonymous"   referrerpolicy="no-referrer" />
+
     <title>Contacto</title>
 
 </head>
 <body>
 
-    <header>
+    <header class="padre">
+
 
         <div class="logo">
-            <img class="imglogo" src="../Imagenes/firesvg.svg" alt="">
-            <h2>Estufas y Salamandras Calorama</h2>
+          <img class="imglogo" src="../Imagenes/firesvg.svg" alt="" />
+          <h2>Estufas y Salamandras Calorama</h2>
         </div>
-
-        <nav>
+  
+        <nav class="navmenu" id="abierto">
+          <div class="navlista">
             <a href="../index.html" class="nav-link">Inicio</a>
-            <a href="../Paginas/Productos.html" class="nav-link">Productos</a>
-            <a href="../Paginas/Empresa.html" class="nav-link">Empresa</a>
-            <a href="../Paginas/FAQ.html" class="nav-link">FAQ</a>
-            <a href="../Paginas/Contacto.html" class="nav-link">Contacto</a>
+            <a href="Productos.html" class="nav-link">Productos</a>
+            <a href="Empresa.html" class="nav-link">Empresa</a>
+            <a href="FAQ.html" class="nav-link">FAQ</a>
+            <a href="Contacto.html" class="nav-link">Contacto</a>
+            <a href="#cerrado" class="nav-link oculto">X</a>
+          </div>
         </nav>
-    </header>
+  
+        <a href="#abierto" class="header__menu">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+        
+  
+         
+      </header>
 
     <main>
          
@@ -103,53 +122,55 @@
     </main>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Redes Sociales</h4>
-                    <div class="social-links">
+        <!-- <div class="container"> -->
+          
+          <div class="row">
   
-                        <a href=""><i class="fa fa-facebook"></i></a>    
-                        <a href=""><i class="fa fa-twitter"></i></a>    
-                        <a href=""><i class="fa fa-instagram"></i></a>    
-                        <a href=""><i class="fa fa-youtube"></i></a>    
-
-                    </div>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Medio ambiente</h4>
-                    <ul>
-                        <li><a href="#">Reciclados</a></li>
-                        <li><a href="#">Huella de Carbon</a></li>
-                        <li><a href="#">Politica Ambiental</a></li>
-                        <li><a href="#">ODS 2030</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="footer-col">
-                    <h4>Investigacion</h4>
-                    <ul>
-                        <li><a href="#">Modelos de Salamandras</a></li>
-                        <li><a href="#">Materias primas</a></li>
-                        <li><a href="#">Modelos de Cocinas</a></li>
-                        <li><a href="#">Calefaccion</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Contacto</h4>
-                    <ul>
-                        <li><a href="#">Telefonos</a></li>
-                        <li><a href="#">Sucursales</a></li>
-                    </ul>
-                </div>
-
-
+            <div class="footer-col sl">
+              <h4>Redes Sociales</h4>
+              <div class="social-links">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
             </div>
-        </div>
-    </footer>
+  
+            <div class="footer-col ma">
+              <h4>Medio Ambiente</h4>
+              <ul>
+                <li><a href="#">Reciclados</a></li>
+                <li><a href="#">Huella de Carbon</a></li>
+                <li><a href="#">Politica Ambiental</a></li>
+                <li><a href="#">ODS 2030</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-col in">
+              <h4>Investigacion</h4>
+              <ul>
+                <li><a href="#">Modelos de Salamandras</a></li>
+                <li><a href="#">Materias primas</a></li>
+                <li><a href="#">Modelos de Cocinas</a></li>
+                <li><a href="#">Calefaccion</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-col co">
+              <h4>Contacto</h4>
+              <ul>
+                <li><a href="#">Telefonos</a></li>
+                <li><a href="#">Sucursales</a></li>
+              </ul>
+            </div>
+  
+            <div class="fin">
+              
+            </div>
+  
+          </div>
+        <!-- </div> -->
+      </footer>
    
 </body>
 </html>
