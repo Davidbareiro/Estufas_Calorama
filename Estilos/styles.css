@@ -27,17 +27,26 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* margin-right: 20px; */
 }
 
 .navlista, .navmenu {
   height: 100%;
   display: flex;
   align-items: center;
+  
 }
+
+.navlista, .navmenu p:last-child{
+  padding-right: 80px;
+}
+
 
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 20px;
+
 }
 
 .logo img {
@@ -106,6 +115,24 @@ nav a:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
+.card{
+  display: inline-block;
+  margin: 10px;
+  height: 316px;
+}
+
+.tarjetas{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
 /* FAQ main */
 
 .faqmain {
@@ -137,6 +164,11 @@ nav a:hover {
 .faqtemas {
   margin: 10px;
   background: #e6ebf3;
+}
+
+.modal-body img {
+  width: 100%;
+  height: 450px;
 }
 
 /* FIN FAQ main*/
@@ -263,7 +295,7 @@ nav a:hover {
 
 .producto_datos_articulo {
   width: 250px;
-  height: 150px;
+  height: 190px;
 }
 
 .producto_familia {
@@ -285,7 +317,8 @@ nav a:hover {
   text-align: center;
   font-family: "PT Sans";
   color: #1d1a1b;
-  padding: 10px;
+  /* padding: 10px; */
+  margin-bottom: 0px;
 }
 
 .valores {
@@ -295,7 +328,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 70px;
+  height: 86px;
 }
 
 .producto_etiquetas {
@@ -427,7 +460,7 @@ nav a:hover {
   max-height: 400px; 
 } */
 
-.row {
+.fila {
   /* max-width: 1170px; */
   /* margin: auto; */
   /* max-height: 150px; */
@@ -541,8 +574,20 @@ ul {
 }
 
 .oculto {
-  display: none;
+  display: none !important;
 }
+
+.nav-link{
+  padding: 10px;
+  display: block;
+  padding: .5rem 1rem;
+  color: #ffffff !important;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+
 
 @media screen and (max-width: 599px) {
 
@@ -582,14 +627,15 @@ ul {
       display: block;
     }
     .oculto {
-      display: block;
+      display: block !important;
     }
 
 
+    
     /*  */
 
     
-    .row {
+    .fila {
       /* max-width: 1170px; */
       /* margin: auto; */
       /* max-height: 150px; */
