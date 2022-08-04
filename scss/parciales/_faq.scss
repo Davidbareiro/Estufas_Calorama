@@ -1,0 +1,41 @@
+
+
+
+  
+  .faqmain {
+    background: #e6ebf3;
+  }
+  
+  .faqcaja {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+  
+  .faqtitulo {
+    margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .faqsubtitulos {
+    font-size: 20px;
+    width: 33%;
+    text-align: left;
+    margin: 5px;
+    color: #e91e63;
+  }
+  
+  .faqtemas {
+    margin: 10px;
+    background: #e6ebf3;
+  }
+  
+  .modal-body img {
+    width: 100%;
+    height: 450px;
+  }
+  
+  /* FIN FAQ main*/

@@ -1,0 +1,52 @@
+
+
+  header nav {
+    background-color: $colorheader;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 20px; */
+  }
+  
+  .navlista, .navmenu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .navlista, .navmenu p:last-child{
+    padding-right: 80px;
+  }
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav a {
+    padding: 20px 30px;
+  
+    /* kbackground-color: beige; */
+  
+    color: white;
+  }
+  
+  .logo h2 {
+    padding-left: 25px;
+  }
+  
+  nav a:hover {
+    font-weight: 600;
+    color: rgb(228, 135, 22);
+  }
+  
+  /* FIN HEADER */
