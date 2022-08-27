@@ -1,110 +1,74 @@
-
-  
-  /* media query */
-   
-  .header__menu{
-    display: none;
-  }
-  
-  .oculto {
-    display: none !important;
-  }
-  
-  .nav-link{
-    padding: 10px;
-    display: block;
-    padding: .5rem 1rem;
-    color: #ffffff !important;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-  }
-  
-  
-  
-  
-  @media screen and (max-width: 599px) {
-  
-        .navmenu  {
+/* media query */
+/*  */
+/* .footer-col {
+        width: 100%;
+      } */
+      .header__menu {
+        display: none;
+      }
+      .oculto {
+        display: none !important;
+      }
+      .nav-link {
+        padding: 10px;
+        display: block;
+        padding: .5rem 1rem;
+        color: #ffffff !important;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+      }
+      @media screen and (max-width: 599px) {
+        .navmenu {
           display: none;
           background-color: green;
           position: fixed;
-           
-          top : 70px;
+          top: 70px;
           height: 70vh;
           left: 0;
           padding: 5px 0;
           width: 50%;
-          z-index: 90;  
-      }  
-  
-      .logo h2 {
-          font-size: 12px;
-      }
-  
-      .header__menu{
-        font-size: 30px;
-        right: 0;
-  
-      }
-      .header__menu{
-        display: block;
-        margin-right: 30px;
-        color: #ffffff;
-      }
-      
-      .navlista{
-        flex-direction: column;
-      }
-  
-      .navmenu:target{
-        display: block;
-      }
-      .oculto {
-        display: block !important;
-      }
-  
-  
-      
-      /*  */
-  
-      
-      .fila {
-        /* max-width: 1170px; */
-        /* margin: auto; */
-        /* max-height: 150px; */
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 1fr 1fr ;
-      
-        grid-template-areas: 
-          "col1 col1 col2 col2"
-          "col3 col3 col4 col4"  ;
+          z-index: 90;
+          &:target {
+            display: block;
+          }
+        }
+        .logo {
+          h2 {
+            font-size: 12px;
+          }
+        }
+        .header__menu {
+          font-size: 30px;
+          right: 0;
+          display: block;
+          margin-right: 30px;
+          color: #ffffff;
+        }
+        .navlista {
+          flex-direction: column;
+        }
+        .oculto {
+          display: block !important;
+        }
+        .fila {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: 1fr 1fr;
+          grid-template-areas: "col1 col1 col2 col2" "col3 col3 col4 col4";
+        }
+        .sl {
+          grid-area: col1;
+          margin-bottom: 20px;
+        }
+        .ma {
+          grid-area: col2;
+          margin-bottom: 20px;
+        }
+        .in {
+          grid-area: col3;
+        }
+        .co {
+          grid-area: col4;
+        }
       }
       
-      /* .footer-col {
-        width: 100%;
-      } */
-  
-      .sl{
-        grid-area: col1;
-        margin-bottom: 20px; 
-       
-      }
-      
-      .ma{
-        grid-area: col2;
-        margin-bottom: 20px; 
-        
-      }
-      
-      .in{
-        grid-area: col3;
-      }
-      
-      .co{
-        grid-area: col4;
-      }
-      
-  
-  }
-  
